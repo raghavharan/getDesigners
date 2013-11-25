@@ -3,6 +3,7 @@ Pinteresting::Application.routes.draw do
   get "about" => "pages#about"
   get "contact" => "pages#contact"
   get "browse" => "pages#browse"
+  get "ignis" => "pages#ignis"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

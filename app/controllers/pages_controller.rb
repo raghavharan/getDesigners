@@ -10,5 +10,8 @@ class PagesController < ApplicationController
 
   def browse
   end
+
+  def ignis
+  end
   
 end
