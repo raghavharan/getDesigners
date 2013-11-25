@@ -1,4 +1,16 @@
 
-<h1>Welcome to the project</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
-<p>Sign up <%= link_to "here", "#" %>.</p>
+	<div class="container">
+		<div class="jumbotron center" height="45px">
+			<p>We connect amazing designers with amazing tech startups.</p>
+			<p><%= link_to "Log in", "#", class: "btn btn-default btn-lg" %>
+				<%= link_to "Sign up", "#", class: "btn btn-primary btn-lg" %>
+			</p>
+		</div>
+		
+  		<ul class="nav nav-tabs">
+  			<li class="active"><a href="#">Newest Startups</a></li>
+  			<li><%= link_to "Home", root_path %></li>
+		</ul>
+  
+		
+	</div>
